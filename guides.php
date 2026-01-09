@@ -15,7 +15,7 @@ $navBase = 'index.php';
 
 <body>
     <div class="wrapper">
-        <?php include ('inc/navigation.blade.php'); ?>
+        <?php include('inc/navigation.blade.php'); ?>
 
         <div class="container">
             <section class="single-section single-section--pi-2 guides-page" id="guides" data-link="home">
@@ -89,7 +89,7 @@ $navBase = 'index.php';
             </section>
         </div>
 
-        <?php include ('inc/footer.blade.php'); ?>
+        <?php include('inc/footer.blade.php'); ?>
     </div>
 </body>
 

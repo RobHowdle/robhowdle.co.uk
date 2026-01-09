@@ -342,9 +342,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	};
 
 	const getModalDurationMs = () => {
-		const cssValue = getComputedStyle(modal).getPropertyValue(
-			"--modal-duration"
-		);
+		const cssValue =
+			getComputedStyle(modal).getPropertyValue("--modal-duration");
 		return parseCssTimeMs(cssValue) ?? 750;
 	};
 

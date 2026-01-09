@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"build": "npm run build:css",
 		"build:css": "sass assets/sass/style.scss assets/css/main.css --style=expanded --no-source-map",
 		"watch:css": "sass --watch assets/sass/style.scss:assets/css/main.css --style=expanded --no-source-map",
 		"previews": "node scripts/generate-previews.mjs",

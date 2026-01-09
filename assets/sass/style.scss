@@ -235,8 +235,7 @@ ul {
 			position: absolute;
 			inset: 0;
 			border-radius: 16px;
-			background:
-				linear-gradient(
+			background: linear-gradient(
 					90deg,
 					rgba(34, 211, 238, 0.22),
 					transparent 55%
@@ -290,8 +289,9 @@ ul {
 				background: rgba(255, 255, 255, 0.04);
 				border: 1px solid rgba(255, 255, 255, 0.1);
 				padding: 0;
-				transition: color 180ms ease-in-out, background 180ms ease-in-out,
-					border-color 180ms ease-in-out, transform 180ms ease-in-out;
+				transition: color 180ms ease-in-out,
+					background 180ms ease-in-out, border-color 180ms ease-in-out,
+					transform 180ms ease-in-out;
 
 				&:hover {
 					color: var(--text);
@@ -407,7 +407,6 @@ ul {
 				transform: none;
 			}
 		}
-
 	}
 }
 

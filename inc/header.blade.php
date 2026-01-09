@@ -6,7 +6,7 @@
  <meta content="" name="keywords">
 
  <?php if (!empty($robotsMeta)) : ?>
- <meta name="robots" content="<?php echo htmlspecialchars($robotsMeta, ENT_QUOTES, 'UTF-8'); ?>">
+     <meta name="robots" content="<?php echo htmlspecialchars($robotsMeta, ENT_QUOTES, 'UTF-8'); ?>">
  <?php endif; ?>
 
  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
