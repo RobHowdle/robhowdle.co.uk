@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"build:css": "sass assets/sass/style.scss assets/css/main.css --style=expanded --no-source-map",
+		"watch:css": "sass --watch assets/sass/style.scss:assets/css/main.css --style=expanded --no-source-map",
+		"previews": "node scripts/generate-previews.mjs",
+		"previews:featured": "node scripts/generate-previews.mjs --featured",
+		"previews:portfolio": "node scripts/generate-previews.mjs --portfolio",
+		"previews:force": "node scripts/generate-previews.mjs --force"
+	},
+	"devDependencies": {
+		"playwright": "^1.50.1",
+		"pngjs": "^7.0.0",
+		"sass": "^1.66.1"
+	}
+}

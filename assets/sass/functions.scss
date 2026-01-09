@@ -1,0 +1,43 @@
+$base-font-size: 16px;
+
+// convert pixels to rem
+@function rem($value) {
+	@return calc($value / 16) + rem;
+}
+
+@mixin btn-nav-link($color) {
+	width: fit-content;
+	color: $color;
+	text-underline-offset: 0.5rem;
+	text-decoration-color: transparent;
+	text-decoration-thickness: 1px;
+	transition-property: text-decoration-color, color;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		text-decoration-color: $color;
+	}
+}
+
+@mixin btn-main($color, $bg) {
+	width: fit-content;
+	color: $color;
+	background-color: $bg;
+	padding: 10px 30px;
+	transition-property: color, background-color;
+	transition-duration: 300ms;
+	transition-timing-function: ease-in-out;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $bg;
+	cursor: pointer;
+
+	&:hover {
+		@if ($bg == $darkBlue) {
+			background-color: $white;
+			color: $darkBlue;
+		}
+	}
+}

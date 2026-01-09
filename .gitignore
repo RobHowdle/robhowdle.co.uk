@@ -1,0 +1,44 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / tooling caches
+.sass-cache/
+.cache/
+.parcel-cache/
+
+# Testing / automation outputs
+playwright-report/
+test-results/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Local/server-only config (don’t commit)
+php.ini
+.user.ini
+.htpasswd
+
+# Misc
+*.log
+*.pid

@@ -1,0 +1,132 @@
+// Colour Variables (dark-first)
+$white: #f8fafc;
+$darkBlue: #0ea5e9; // accent
+$lightBlue: #22d3ee; // accent alt
+$paleBlue: #60a5fa;
+$lightGrey: #e6edf3; // primary text
+$medGrey: #0f172a; // surfaces
+$darkGrey: #0b1220; // background
+$medGold: #f59e0b;
+
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600&display=swap");
+@import "functions.scss";
+
+// Font Weights
+$light: 100;
+$normal: 400;
+$bold: 700;
+
+body {
+	font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+		Arial, sans-serif;
+}
+
+h1,
+.h1 {
+	font-size: rem(56);
+	letter-spacing: -0.02em;
+}
+
+h2,
+.h2 {
+	font-size: rem(44);
+	letter-spacing: -0.02em;
+}
+
+h3,
+.h3 {
+	font-size: rem(34);
+	letter-spacing: -0.01em;
+}
+
+h4,
+.h4 {
+	font-size: rem(24);
+	letter-spacing: -0.01em;
+}
+
+h5,
+.h5 {
+	font-size: rem(20);
+	letter-spacing: -0.005em;
+}
+
+h6,
+.h6 {
+	font-size: rem(16);
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+li,
+.li {
+	font-size: rem(16);
+	font-weight: 600;
+}
+
+button,
+.btn {
+	font-size: rem(16);
+}
+
+p,
+.p {
+	font-size: rem(16);
+}
+
+// @media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1680px) {
+	h1,
+	.h1 {
+		font-size: rem(48);
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	h3,
+	.h3 {
+		font-size: rem(30);
+	}
+
+	h5,
+	.h5 {
+		font-size: rem(18);
+	}
+
+	p,
+	.p {
+		font-size: rem(15);
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	h3,
+	.h3 {
+		font-size: rem(26);
+	}
+
+	h5,
+	.h5 {
+		font-size: rem(17);
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	h3,
+	.h3 {
+		font-size: rem(28);
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	h3,
+	.h3 {
+		font-size: rem(26);
+	}
+}
+
+// @media only screen and (max-width: 575px) {}
+
+// @media only screen and (max-width: 360px) {}
