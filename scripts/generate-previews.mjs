@@ -1,11 +1,16 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
+import {fileURLToPath} from "node:url";
 
 import {chromium} from "playwright";
 import {PNG} from "pngjs";
 
-const ROOT = process.cwd();
+const PROJECT_ROOT = path.resolve(
+	path.dirname(fileURLToPath(import.meta.url)),
+	".."
+);
+const PUBLIC_ROOT = path.join(PROJECT_ROOT, "public");
 const DEFAULT_VIEWPORT = {width: 1366, height: 768};
 
 function log(message) {
@@ -65,11 +70,11 @@ async function ensureDir(filePath) {
 }
 
 async function loadProjects() {
-	const projectsPath = path.join(ROOT, "data", "projects.json");
+	const projectsPath = path.join(PUBLIC_ROOT, "data", "projects.json");
 	const raw = await fs.readFile(projectsPath, "utf8");
 	const projects = JSON.parse(raw);
 	if (!Array.isArray(projects)) {
-		throw new Error("data/projects.json must be an array");
+		throw new Error("public/data/projects.json must be an array");
 	}
 	return {projects, projectsPath};
 }
@@ -118,7 +123,7 @@ async function capture() {
 	const browser = await chromium.launch();
 	try {
 		for (const project of targetProjects) {
-			const outPath = path.join(ROOT, project.image);
+			const outPath = path.join(PUBLIC_ROOT, project.image);
 			await ensureDir(outPath);
 
 			if (!force) {

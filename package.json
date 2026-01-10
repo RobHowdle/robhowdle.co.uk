@@ -1,8 +1,9 @@
 {
 	"scripts": {
+		"serve": "php -S localhost:8000 -t public",
 		"build": "npm run build:css",
-		"build:css": "sass assets/sass/style.scss assets/css/main.css --style=expanded --no-source-map",
-		"watch:css": "sass --watch assets/sass/style.scss:assets/css/main.css --style=expanded --no-source-map",
+		"build:css": "sass public/assets/sass/style.scss public/assets/css/main.css --style=expanded --no-source-map",
+		"watch:css": "sass --watch public/assets/sass/style.scss:public/assets/css/main.css --style=expanded --no-source-map",
 		"previews": "node scripts/generate-previews.mjs",
 		"previews:featured": "node scripts/generate-previews.mjs --featured",
 		"previews:portfolio": "node scripts/generate-previews.mjs --portfolio",
