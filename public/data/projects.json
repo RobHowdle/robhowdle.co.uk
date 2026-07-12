@@ -1,106 +1,106 @@
 [
-  {
-    "id": "printed-parts-checklist",
-    "title": "Printed Parts Checklist",
-    "url": "https://checklist.mbprinteddroids.com/",
-    "image": "assets/img/previews/printed-parts-checklist.png",
-    "imageOverride": "assets/img/portfolio/cards/checklist.webp",
-    "useGeneratedPreview": false,
-    "featured": true,
-    "portfolio": true,
-    "accent": "#171e40",
-    "description": "I developed a personal Laravel project that enables users from my Droid Building Community to create customised checklists for tracking their progress in building a robot. With numerous parts involved in constructing a droid, this web application allows users to create accounts, select the specific droid they are building, and even customise it with different versions to cater to their individual requirements. The application scans the file structure create by the droid creators and automatically generates a checklist divided into sections that mirror the structure. This feature enables users to effortlessly locate the necessary parts they need.",
-    "links": [
-      {
-        "label": "View",
-        "url": "https://checklist.mbprinteddroids.com/"
-      },
-      {
-        "label": "Github",
-        "url": "https://github.com/Droid-Builder-Web-Team/ChecklistApp"
-      }
-    ]
-  },
-  {
-    "id": "artoo-discord-bot",
-    "title": "Artoo Discord Bot",
-    "url": "https://github.com/Droid-Builder-Web-Team/discord_bot",
-    "image": "assets/img/previews/artoo-discord-bot.png",
-    "imageOverride": "assets/img/portfolio/cards/discord_bot.webp",
-    "useGeneratedPreview": false,
-    "featured": false,
-    "portfolio": true,
-    "accent": "#464f55",
-    "description": "I contributed to the development of a custom Discord Server Bot called Artoo. Built using JavaScript, this bot offers a range of features that are both useful to users and provide some entertaining games to play. Artoo can assign roles to users, respond to user input based on its pre-set mood, tell jokes, play games, and even search a wiki for user-specified content.",
-    "links": [
-      {
-        "label": "Github",
-        "url": "https://github.com/Droid-Builder-Web-Team/discord_bot"
-      }
-    ]
-  },
-  {
-    "id": "your-next-show",
-    "title": "Your Next Show",
-    "url": "https://yournextshow.co.uk/",
-    "image": "assets/img/previews/your-next-show.png",
-    "featured": true,
-    "portfolio": true,
-    "accent": "#2d211a",
-    "description": "A gigs discovery project that surfaces upcoming shows and helps you decide what to go to next."
-  },
-  {
-    "id": "droid-builder-wiki",
-    "title": "Droid Builder Wiki",
-    "url": "https://wiki.robsrobots.co.uk/wiki/index.php/Main_Page",
-    "image": "assets/img/previews/droid-builder-wiki.png",
-    "imageOverride": "assets/img/portfolio/cards/wiki.webp",
-    "useGeneratedPreview": false,
-    "featured": false,
-    "portfolio": true,
-    "accent": "#d7dce6",
-    "description": "I developed an information wiki specifically designed for the Droid Builder Community. This wiki serves as a centralised hub, compiling extensive information on droid building and making it easily accessible. Utilising the open-source Media Wiki platform with custom styling, I created a user-friendly environment where individuals can create accounts, contribute to and update various pages with relevant information, and access helpful resources such as purchase links for parts and tutorials. The primary objective of this wiki is to assist new builders in navigating the intricacies of this complex hobby, simplifying their journey.",
-    "links": [
-      {
-        "label": "View",
-        "url": "https://wiki.robsrobots.co.uk/wiki/index.php/Main_Page"
-      }
-    ]
-  },
-  {
-    "id": "your-next-festival",
-    "title": "Your Next Festival",
-    "url": "https://yournextfestival.co.uk/",
-    "image": "assets/img/previews/your-next-festival.png",
-    "featured": true,
-    "portfolio": true,
-    "accent": "#241332",
-    "description": "A festival discovery and planning project, built to make exploring lineups and saving favourites fast and fun."
-  },
-  {
-    "id": "paradise-school-goa",
-    "title": "Paradise School, Goa",
-    "url": "https://paradiseschoolgoa.com/",
-    "image": "assets/img/previews/paradise-school-goa.png",
-    "featured": false,
-    "portfolio": true,
-    "accent": "#7f8f8b",
-    "description": "Working on the Paradise School project at Discovery Design was a highly enjoyable experience. The project demanded a balance between a fun and professional design, allowing me the creative freedom to make it truly exceptional. This project held a significant milestone for me as it was the first time I completed a project for a client in another country. Overcoming the challenges of time differences and very bespoke requirements, I strived to effectively communicate and meet the clients needs. The website boasts a range of notable features including custom image sliders, section animations and various custom post types.",
-    "links": [
-      {
-        "label": "View",
-        "url": "https://paradiseschoolgoa.com/"
-      }
-    ]
-  },
-  {
-    "id": "download-festival-schedule",
-    "title": "Download Festival Schedule",
-    "url": "https://download.yournextfestival.co.uk/",
-    "image": "assets/img/previews/download-festival-schedule.png",
-    "featured": true,
-    "portfolio": true,
-    "accent": "#371510",
-    "description": "A timetable-style schedule view for Download Festival, designed for quick scanning on mobile."
-  }
+	{
+		"id": "printed-parts-checklist",
+		"title": "Printed Parts Checklist",
+		"url": "https://checklist.mbprinteddroids.com/",
+		"image": "assets/img/previews/printed-parts-checklist.png",
+		"imageOverride": "assets/img/portfolio/cards/checklist.webp",
+		"useGeneratedPreview": false,
+		"featured": false,
+		"portfolio": true,
+		"accent": "#171e40",
+		"description": "I developed a personal Laravel project that enables users from my Droid Building Community to create customised checklists for tracking their progress in building a robot. With numerous parts involved in constructing a droid, this web application allows users to create accounts, select the specific droid they are building, and even customise it with different versions to cater to their individual requirements. The application scans the file structure create by the droid creators and automatically generates a checklist divided into sections that mirror the structure. This feature enables users to effortlessly locate the necessary parts they need.",
+		"links": [
+			{
+				"label": "View",
+				"url": "https://checklist.mbprinteddroids.com/"
+			},
+			{
+				"label": "Github",
+				"url": "https://github.com/Droid-Builder-Web-Team/ChecklistApp"
+			}
+		]
+	},
+	{
+		"id": "artoo-discord-bot",
+		"title": "Artoo Discord Bot",
+		"url": "https://github.com/Droid-Builder-Web-Team/discord_bot",
+		"image": "assets/img/previews/artoo-discord-bot.png",
+		"imageOverride": "assets/img/portfolio/cards/discord_bot.webp",
+		"useGeneratedPreview": false,
+		"featured": false,
+		"portfolio": true,
+		"accent": "#464f55",
+		"description": "I contributed to the development of a custom Discord Server Bot called Artoo. Built using JavaScript, this bot offers a range of features that are both useful to users and provide some entertaining games to play. Artoo can assign roles to users, respond to user input based on its pre-set mood, tell jokes, play games, and even search a wiki for user-specified content.",
+		"links": [
+			{
+				"label": "Github",
+				"url": "https://github.com/Droid-Builder-Web-Team/discord_bot"
+			}
+		]
+	},
+	{
+		"id": "your-next-show",
+		"title": "Your Next Show",
+		"url": "https://yournextshow.co.uk/",
+		"image": "assets/img/previews/your-next-show.png",
+		"featured": true,
+		"portfolio": true,
+		"accent": "#2d211a",
+		"description": "A gigs discovery project that surfaces upcoming shows and helps you decide what to go to next."
+	},
+	{
+		"id": "droid-builder-wiki",
+		"title": "Droid Builder Wiki",
+		"url": "https://wiki.robsrobots.co.uk/wiki/index.php/Main_Page",
+		"image": "assets/img/previews/droid-builder-wiki.png",
+		"imageOverride": "assets/img/portfolio/cards/wiki.webp",
+		"useGeneratedPreview": false,
+		"featured": false,
+		"portfolio": true,
+		"accent": "#d7dce6",
+		"description": "I developed an information wiki specifically designed for the Droid Builder Community. This wiki serves as a centralised hub, compiling extensive information on droid building and making it easily accessible. Utilising the open-source Media Wiki platform with custom styling, I created a user-friendly environment where individuals can create accounts, contribute to and update various pages with relevant information, and access helpful resources such as purchase links for parts and tutorials. The primary objective of this wiki is to assist new builders in navigating the intricacies of this complex hobby, simplifying their journey.",
+		"links": [
+			{
+				"label": "View",
+				"url": "https://wiki.robsrobots.co.uk/wiki/index.php/Main_Page"
+			}
+		]
+	},
+	{
+		"id": "your-next-festival",
+		"title": "Your Next Festival",
+		"url": "https://yournextfestival.co.uk/",
+		"image": "assets/img/previews/your-next-festival.png",
+		"featured": false,
+		"portfolio": true,
+		"accent": "#241332",
+		"description": "A festival discovery and planning project, built to make exploring lineups and saving favourites fast and fun."
+	},
+	{
+		"id": "anafae-music",
+		"title": "Anafae Music",
+		"url": "https://anafaemusic.co.uk/",
+		"image": "assets/img/previews/anafaemusic.png",
+		"featured": true,
+		"portfolio": true,
+		"accent": "#a27ba080",
+		"description": "A custom website for a local wedding singer which was one of the first websites that featured my own design skills. Utilising a Vue frontend and a Laravel backend, the website features a custom CMS for managing content and a contact form for potential clients to get in touch.",
+		"links": [
+			{
+				"label": "View",
+				"url": "https://anafaemusic.co.uk/"
+			}
+		]
+	},
+	{
+		"id": "download-festival-schedule",
+		"title": "Download Festival Schedule",
+		"url": "https://download.yournextfestival.co.uk/",
+		"image": "assets/img/previews/download-festival-schedule.png",
+		"featured": true,
+		"portfolio": true,
+		"accent": "#371510",
+		"description": "A timetable-style schedule view for Download Festival, designed for quick scanning on mobile."
+	}
 ]
